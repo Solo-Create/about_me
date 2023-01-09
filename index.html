@@ -5,77 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
     <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header">
-      <div class="header__container">
-        <img src="" alt="logo" class="header_logo" />
-        <nav class="header_nav">
-          <ul class="header_list">
-            <li class="header_item">
-              <a href="/" class="header_link">About me</a>
-            </li>
-            <li class="header_item">
-              <a href="/" class="header_link">Favorite places</a>
-            </li>
-            <li class="header_item">
-              <a href="/" class="header_link">Social network</a>
-            </li>
-            <li class="header_item">
-              <a href="/" class="header_link">My channel</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="main">
-      <div class="main__container">
-        <h1>Personal Website</h1>
-        <div class="about_me">
-          <img src="" alt="my photo" class="my_photo" />
-          <h2>About me</h2>
-          <p class="my_info">
-            Hi! I'm Vladislav. I have been learning web development recently. I
-            like to learn something new, I like to communicate with people and
-            computers. I want to develop the skills I need and become
-            full-fledget web developer.
-          </p>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <img src="/img/logo.png" alt="logo" class="header_logo" />
+          <nav class="header_menu menu">
+            <ul class="menu_list">
+              <li class="menu_item">
+                <a href="/" class="menu_link">About me</a>
+              </li>
+              <li class="menu_item">
+                <a href="/" class="menu_link">Favorite places</a>
+              </li>
+              <li class="menu_item">
+                <a
+                  href="https://vk.com/illustrane"
+                  class="menu_link"
+                  target="_blank"
+                  >Social network</a
+                >
+              </li>
+              <li class="menu_item">
+                <a
+                  href="https://www.youtube.com/channel/UCkXZX2gOG8zCLTJV7nIkPxA"
+                  class="menu_link"
+                  target="_blank"
+                  >My channel</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="my_hobbies">
-          <h2>My hobbies:</h2>
-          <ul class="hobbies_list">
-            <li class="hobby_item">I like to read various books</li>
-            <li class="hobby_item">I like to explore unknown places</li>
-            <li class="hobby_item">I like to create something new</li>
-            <li class="hobby_item">I like to walk</li>
-            <li class="hobby_item">I like to spend time with good people</li>
-          </ul>
+      </header>
+      <main class="main">
+        <div class="main__container">
+          <h1>Personal Website</h1>
+          <div class="about_me">
+            <img src="/img/me.jpg" alt="my photo" class="my_photo" />
+            <h2>About me</h2>
+            <p class="my_info">
+              Hi! I'm Vladislav. I have been learning web development recently.
+              I like to learn something new, I like to communicate with people
+              and computers. I want to develop the skills I need and become
+              full-fledget web developer.
+            </p>
+          </div>
+          <div class="my_hobbies">
+            <h2>My hobbies:</h2>
+            <ul class="hobbies_list">
+              <li class="hobby_item">I like to read various books</li>
+              <li class="hobby_item">I like to explore unknown places</li>
+              <li class="hobby_item">I like to create something new</li>
+              <li class="hobby_item">I like to walk</li>
+              <li class="hobby_item">I like to spend time with good people</li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="footer__container">
-        <iframe
-          class="my_address_map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1326.1694392354434!2d92.81766436688432!3d56.012745113643625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7ade86fa28b89%3A0x502b23f2bb8dfb26!2z0YPQuy4g0JrQvtC_0YvQu9C-0LLQsCwg0JrRgNCw0YHQvdC-0Y_RgNGB0LosINCa0YDQsNGB0L3QvtGP0YDRgdC60LjQuSDQutGA0LDQuSwgNjYwMDAx!5e0!3m2!1sru!2sru!4v1672998117579!5m2!1sru!2sru"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <address class="my_address">
-          My e-mail: <a href="mailto:article@auth.or">vl.kashnikov@mail.ru</a
-          ><br />
-          My phone:
-          <a href="tel:+77778889900">+7(996)430-67-32</a><br />
-          Krasnoyarsk region,<br />
-          Krasnoyarsk city,<br />
-          Kopylova street 48,<br />
-          Apartment 50.
-        </address>
-      </div>
-    </footer>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <iframe
+            class="my_address_map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1326.1694392354434!2d92.81766436688432!3d56.012745113643625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7ade86fa28b89%3A0x502b23f2bb8dfb26!2z0YPQuy4g0JrQvtC_0YvQu9C-0LLQsCwg0JrRgNCw0YHQvdC-0Y_RgNGB0LosINCa0YDQsNGB0L3QvtGP0YDRgdC60LjQuSDQutGA0LDQuSwgNjYwMDAx!5e0!3m2!1sru!2sru!4v1672998117579!5m2!1sru!2sru"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <address class="my_address">
+            My e-mail: <a href="mailto:article@auth.or">vl.kashnikov@mail.ru</a
+            ><br />
+            My phone:
+            <a href="tel:+77778889900">+7(996)430-67-32</a><br />
+            Krasnoyarsk region,<br />
+            Krasnoyarsk city,<br />
+            Kopylova street 48,<br />
+            Apartment 50.
+          </address>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
