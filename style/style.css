@@ -53,8 +53,74 @@ body {
   max-width: 1440px;
   margin: 0px auto;
 }
-.header {
-}
 .header__container {
   display: flex;
+}
+.header_logo {
+  height: 100px;
+  width: 100px;
+}
+.header_menu {
+  flex: 1340px;
+}
+.menu_list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 36px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5% 0 5% 0;
+}
+.about_me {
+  display: flex;
+}
+.my_info {
+  display: flex;
+  flex-direction: column;
+}
+.my_photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5% 0 5% 0;
+}
+p {
+  line-height: 40px;
+  text-indent: 30px;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.my_hobbies {
+  margin-bottom: 5%;
+}
+.hobby_item {
+  line-height: 60px;
+  text-align: center;
+}
+.footer__container {
+  display: flex;
+}
+.my_address_map {
+  height: 300px;
+  width: 600px;
+  flex: 0 1 auto;
+}
+address {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-self: flex-end;
+  flex: 1 1 auto;
 }
